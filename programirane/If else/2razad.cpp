@@ -8,12 +8,11 @@ cout<<"Vuvedi drugoto chislo\n";
 cin>>y;
 {
     if (x>y)
-        cout<<x;
+        cout<<"Po-golqmoto e "<<x;
         else if(x==y)
             cout<<"Ravni sa";
     else
-        cout<<y;
+        cout<<"Po-golqmoto e "<<y;
 }
 return 0;
 }
-
