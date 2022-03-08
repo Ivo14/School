@@ -17,12 +17,12 @@ else {
 p3++;c[p3]=b[p2];p2++;
 }
 if(p1>4)
-for (int i=p2;i<=6;i++)
+for (int i=p2;i<6;i++)
 {
     p3++; c[p3]=b[i];
 }
 else {
-    for(int i=p1;i<=5;i++){
+    for(int i=p1;i<5;i++){
     p3++;c[p3]=b[i];}
 }
 
