@@ -8,14 +8,8 @@ int p1=0;
 int p2=0;
 int p3=-1;
 while (p1<=4&&p2<=5) 
-    if(a[p1]<=b[p2]) {
-        p3++;
-        c[p3]=a[p1];
-        p1++;
-    }
-else {
-p3++;c[p3]=b[p2];p2++;
-}
+    if(a[p1]<=b[p2]) {p3++;c[p3]=a[p1];p1++;}
+else {p3++;c[p3]=b[p2];p2++;}
 if(p1>4)
 for (int i=p2;i<6;i++)
 {
