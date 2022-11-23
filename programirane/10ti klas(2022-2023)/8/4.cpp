@@ -1,7 +1,5 @@
 #include <iostream>
 #include <string.h>
-#include <iostream>
-#include <string.h>
 using namespace std;
 void replace(char a[],char b, char c) {
     for (int i=0;i<strlen(a);i++){ if (a[i]==b) a[i]=c;}
@@ -35,7 +33,7 @@ replace(a,'w','W');
 replace(a,'x','X');
 replace(a,'y','Y');
 replace(a,'z','Z');
-for(int i=0;i<strlen(a);i++) {if(a[i]>='0' and a[i]<'9') a[i]++; else if (a[i]==9) a[i]=0;}
+for(int i=0;i<strlen(a);i++) {if(a[i]>='0' and a[i]<'9') a[i]++; else if (a[i]=='9') a[i]='0';}
 for(int i=0;i<strlen(a);i++) {cout<<a[i];}
     return 0;
 }
